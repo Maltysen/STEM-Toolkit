@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.supernovaapps.stemtoolkit" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BallLevel"
+            android:label="STEM Toolkit Level"
+            android:screenOrientation="locked"/>
+
+        <activity
+            android:name=".ProtractorMainActivity"
+            android:label="STEM Toolkit Proctractor"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".ProtractorMeasureAngle"
+            android:label="STEM Toolkit Protractor"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".Environment"
+            android:label="STEM Toolkit Environmental Sensors" />
+
+        <activity
+            android:name=".Constants"
+            android:label="STEM Toolkit Numerical Constants" />
+
+        <activity
+            android:name=".Ruler"
+            android:label="STEM Toolkit Ruler"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".EquationSolver" />
+
+        <activity android:name=".Solver"
+            android:theme="@android:style/Theme.Dialog"/>
+
+    </application>
+
+</manifest>

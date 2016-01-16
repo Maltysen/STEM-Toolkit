@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.supernovaapps.stemtoolkit.Ruler"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Put edge of object on this line and move the other line" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7px"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="15px" />
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:id="@+id/space" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="7px"
+            android:id="@+id/line2"
+            android:background="@color/colorPrimaryDark"
+            android:layout_y="200px"/>
+
+    </AbsoluteLayout>
+
+    <com.supernovaapps.stemtoolkit.DimensionalDisplayView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:number="0"
+        app:unit=" cm"
+        android:id="@+id/disp" />
+
+</LinearLayout>

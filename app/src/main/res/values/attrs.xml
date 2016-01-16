@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="DimensionalDisplayView">
+        <attr name="number" format="float" />
+        <attr name="unit" format="string" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/horizontal_layout">
+            <Button
+                style="@style/main_grid_button"
+                android:id="@+id/protractor"
+                android:text="Protractor"
+                android:drawableTop="@drawable/protractor" />
+
+            <Button
+                style="@style/main_grid_button"
+                android:id="@+id/level"
+                android:text="Level"
+                android:drawableTop="@drawable/level_bt" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/horizontal_layout">
+            <Button
+                style="@style/main_grid_button"
+                android:id="@+id/environment"
+                android:text="Sensors"
+                android:drawableTop="@drawable/thermo" />
+
+            <Button
+                style="@style/main_grid_button"
+                android:id="@+id/ruler"
+                android:text="Ruler"
+                android:drawableTop="@drawable/ruler"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/horizontal_layout">
+            <Button
+                style="@style/main_grid_button"
+                android:id="@+id/equations"
+                android:text="Equation Solver"
+                android:drawableTop="@drawable/equation_img" />
+
+            <Button
+                style="@style/main_grid_button"
+                android:id="@+id/constants"
+                android:text="Constants List"
+                android:drawableTop="@drawable/constant_img" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

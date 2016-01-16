@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">STEM Toolkit</string>
+
+    <string name="protractor_aligned_button_text">Aligned</string>
+    <string name="protractor_instructions1">Put bottom of your phone on the first line</string>
+    <string name="protractor_new_angle_text">New Angle</string>
+    <string name="protractor_instructions2">Move to second line</string>
+
+</resources>
